@@ -1,0 +1,38 @@
+{
+    "projectId": "63efac6f472d2406bbb7",
+    "projectName": "Test",
+    "collections": [
+        {
+            "$id": "63efa15a603079217b19",
+            "$createdAt": "2023-02-17T15:46:34.395+00:00",
+            "$updatedAt": "2023-02-17T16:43:38.903+00:00",
+            "$permissions": [
+                "create(\"users\")"
+            ],
+            "databaseId": "63efa143d1dae75371af",
+            "name": "Todo's Collection",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "content",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 255,
+                    "default": null
+                },
+                {
+                    "key": "isComplete",
+                    "type": "boolean",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "default": null
+                }
+            ],
+            "indexes": []
+        }
+    ]
+}
